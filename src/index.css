@@ -1,0 +1,16 @@
+.my-slider-crop .slick-slide {
+    height: 500px !important;
+    overflow: hidden !important;
+}
+.product{
+    overflow: hidden;
+}
+.product button {
+    transform: translateY(100px);
+    opacity: 50%;
+    transition: all 0.3s;
+}
+.product:hover button{
+    transform: translateY(0px);
+    opacity: 100%;
+}
